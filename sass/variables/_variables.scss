@@ -1,0 +1,21 @@
+:root {
+    /*шрифт*/
+    --main-text: "Roboto", sans-serif;
+    --text-logo: "Raleway", sans-serif;
+    /*основной цвет*/
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    /* Цвет КНОПКИ */
+    --accent-color: #2196f3;
+    --button-color: #f5f4fa;
+    --secondary-btn-color: #188ce8;
+    --primary-white-color: #ffffff;
+    /* Цвет фон Шапка и ФУТЕР */
+    --primary-bg-color: #2f303a;
+    /* Цвет тел и почта ФУТЕР */
+    --telemail-footer-color: rgba(255, 255, 255, 0.6);
+    /* Цвет иконок наша команда */
+    --social-icon-color: #afb1b8;
+    --trans-dur-250ms: 250ms;
+    --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+}

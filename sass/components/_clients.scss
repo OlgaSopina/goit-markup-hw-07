@@ -1,0 +1,28 @@
+.clients-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--social-icon-color);
+    border: 1px solid var(--social-icon-color);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+}
+
+.icon-clients {
+    fill: currentColor;
+}
+
+.social-clients-link:hover,
+.social-clients-link:focus {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    transition-duration: var(--trans-dur-250ms);
+    transition-timing-function: var(--cubic-bezier);
+}

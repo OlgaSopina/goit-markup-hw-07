@@ -1,0 +1,58 @@
+.cap {
+    font-family: var(--main-text);
+    font-style: normal;
+    background-color: var(--primary-bg-color);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    height: 600px;
+    background-origin: padding-box;
+    background-position: center center;
+}
+
+.cap-link {
+    font-family: var(--main-text);
+    display: block;
+    margin-bottom: 30px;
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button-accent {
+    display: flex;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 32px;
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    font-family: inherit;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: transparent;
+}
+
+.button-accent:hover,
+.button-accent:focus,
+.button-accent:visited {
+    cursor: pointer;
+    background-color: var(--secondary-btn-color);
+    transition-duration: var(--trans-dur-250ms);
+    transition-timing-function: var(--cubic-bezier);
+}

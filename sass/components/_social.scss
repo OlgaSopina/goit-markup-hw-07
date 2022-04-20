@@ -1,0 +1,31 @@
+.social-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-team-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.social-team-link:hover .icon-team,
+.social-team-link:focus .icon-team {
+    fill: var(--primary-white-color);
+    transition-duration: var(--trans-dur-250ms);
+    transition-timing-function: var(--cubic-bezier);
+}
+
+.social-team-link:hover,
+.social-team-link:focus {
+    background-color: var(--accent-color);
+    transition-duration: var(--trans-dur-250ms);
+    transition-timing-function: var(--cubic-bezier);
+}
+
+.icon-team {
+    fill: var(--social-icon-color);
+}

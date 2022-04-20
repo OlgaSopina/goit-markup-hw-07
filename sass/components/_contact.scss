@@ -1,0 +1,30 @@
+.contact {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.contact-list {
+    display: flex;
+}
+
+.contact-list .contact-item+.contact-item {
+    margin-left: 50px;
+}
+
+.email-tel {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.email-tel:hover,
+.email-tel:focus {
+    color: var(--accent-color);
+    transition-duration: var(--trans-dur-250ms);
+    transition-timing-function: var(--cubic-bezier);
+}

@@ -1,0 +1,62 @@
+.header-logo {
+    display: block;
+    font-family: var(--text-logo);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-color);
+}
+
+.header-logo-text {
+    color: var(--primary-text-color);
+}
+
+
+/* Навигация */
+
+.site-nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.link-text {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.nav-list .link-current {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.nav-list .nav-link:hover,
+.nav-list .nav-link:focus {
+    color: var(--accent-color);
+    transition-duration: var(--trans-dur-250ms);
+    transition-timing-function: var(--cubic-bezier);
+}
+
+.header-nav-mail:hover,
+.header-nav-mail:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+    transition-duration: var(--trans-dur-250ms);
+    transition-timing-function: var(--cubic-bezier);
+}
+
+.header-nav-phone:hover,
+.header-nav-phone:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+    transition-duration: var(--trans-dur-250ms);
+    transition-timing-function: var(--cubic-bezier);
+}
