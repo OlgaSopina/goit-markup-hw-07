@@ -15,14 +15,14 @@
     height: 92px;
 }
 
-.icon-clients {
-    fill: currentColor;
-}
-
-.social-clients-link:hover,
-.social-clients-link:focus {
+&:hover,
+&:focus {
     color: var(--accent-color);
     border: 1px solid var(--accent-color);
     transition-duration: var(--trans-dur-250ms);
     transition-timing-function: var(--cubic-bezier);
+}
+
+.icon-clients {
+    fill: currentColor;
 }

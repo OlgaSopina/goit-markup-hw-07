@@ -30,8 +30,8 @@
      white-space: nowrap
  }
  
- .address-link:hover,
- .address-link:focus {
+ &:hover,
+ &:focus {
      color: var(--accent-color);
      transition-duration: var(--trans-dur-250ms);
      transition-timing-function: var(--cubic-bezier);
@@ -43,8 +43,8 @@
      color: rgba(255, 255, 255, 0.6);
  }
  
- .address-contact-link:hover,
- .address-contact-link:focus {
+ &:hover,
+ &:focus {
      color: var(--accent-color);
      transition-duration: var(--trans-dur-250ms);
      transition-timing-function: var(--cubic-bezier);
@@ -65,11 +65,15 @@
      color: var(--primary-white-color);
  }
  
- .footer-list-icon {
+ .footer-link-icon {
      display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 44px;
+     height: 44px;
  }
  
- .footer-list-icon :not(:last-child) {
+ &:not(:last-child) {
      margin-right: 10px;
  }
  
@@ -83,16 +87,8 @@
      border-radius: 50%;
  }
  
- .footer-link-icon {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 44px;
-     height: 44px;
- }
- 
- .footer-item-icon:hover,
- .footer-item-icon:focus {
+ &:hover,
+ &:focus {
      background-color: var(--accent-color);
      border-radius: 50%;
      transition-duration: var(--trans-dur-250ms);

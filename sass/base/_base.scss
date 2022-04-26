@@ -58,7 +58,7 @@ header {
     position: relative;
 }
 
-.current::after {
+&::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -81,8 +81,8 @@ header {
     transition-timing-function: var(--cubic-bezier);
 }
 
-.nav-link:hover,
-.nav-link:focus,
+&:hover,
+&:focus,
 .nav-link.current {
     color: var(--accent-color);
     transition-duration: var(--trans-dur-250ms);
@@ -115,10 +115,13 @@ header {
 }
 
 .header {
-    ;
     font-weight: 500;
     margin-left: auto;
     margin-right: auto;
+}
+
+.header-project {
+    border-bottom: 1px solid #ececec;
 }
 
 .top-line {

@@ -48,9 +48,9 @@
     border: transparent;
 }
 
-.button-accent:hover,
-.button-accent:focus,
-.button-accent:visited {
+&:hover,
+&:focus,
+&:visited {
     cursor: pointer;
     background-color: var(--secondary-btn-color);
     transition-duration: var(--trans-dur-250ms);

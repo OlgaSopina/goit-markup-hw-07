@@ -7,7 +7,7 @@
     display: flex;
 }
 
-.contact-list .contact-item+.contact-item {
+.contact-list.contact-item+.contact-item {
     margin-left: 50px;
 }
 
@@ -22,8 +22,8 @@
     letter-spacing: 0.02em;
 }
 
-.email-tel:hover,
-.email-tel:focus {
+&:hover,
+&:focus {
     color: var(--accent-color);
     transition-duration: var(--trans-dur-250ms);
     transition-timing-function: var(--cubic-bezier);
